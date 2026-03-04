@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #fd0000, #0134ee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.www {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  background-color: blue;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+}
+.icon2 {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  background-color: rgb(17, 236, 244);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+}
+.icon2:hover {
+  opacity: 1;
+  visibility: visible;
+  top: -20px;
+}
+.icon2:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+}
+.www:hover .icon2 {
+  opacity: 1;
+  visibility: visible;
+  top: -60px;
+  width: 150px;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.icon:hover {
+  opacity: 1;
+  visibility: visible;
+  top: -20px;
+}
+.icon:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+}
+.www:hover .icon {
+  opacity: 1;
+  visibility: visible;
+  top: -60px;
+  width: 150px;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20%;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+  gap: 20px;
+}
+/* isntagram */
+.icon3 {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  background-color: red;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+}
+.icon3:hover {
+  opacity: 1;
+  visibility: visible;
+  top: -20px;
+}
+.icon3:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+}
+.www:hover .icon3 {
+  opacity: 1;
+  visibility: visible;
+  top: -60px;
+  width: 150px;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* gt hup */
+.icon4 {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  background-color: dimgrey;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+}
+.icon4:hover {
+  opacity: 1;
+  visibility: visible;
+  top: -20px;
+}
+.icon4:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+}
+.www:hover .icon4 {
+  opacity: 1;
+  visibility: visible;
+  top: -60px;
+  width: 150px;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* yutub */
+.icon5 {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  background-color: red;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+}
+.icon5:hover {
+  opacity: 1;
+  visibility: visible;
+  top: -20px;
+}
+.icon5:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+}
+.www:hover .icon5 {
+  opacity: 1;
+  visibility: visible;
+  top: -60px;
+  width: 150px;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: white;
+}
+.facebook:hover {
+  background-color: blue;
+  color: white;
+  width: 120px;
+  height: 120px;
+}
+
+i {
+  font-size: 50px;
+}
+.twitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 100%;
+  background-color: white;
+}
+.twitter:hover {
+  background-color: rgb(17, 236, 244);
+  color: white;
+  width: 120px;
+  height: 120px;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 100%;
+  background-color: white;
+}
+.instagram:hover {
+  background-color: red;
+  color: white;
+  width: 120px;
+  height: 120px;
+}
+.githup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 100%;
+  background-color: white;
+}
+.githup:hover {
+  background-color: dimgrey;
+  color: white;
+  width: 120px;
+  height: 120px;
+}
+.youtube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 100%;
+  background-color: white;
+}
+.youtube:hover {
+  background-color: red;
+  color: white;
+  width: 120px;
+  height: 120px;
+}
